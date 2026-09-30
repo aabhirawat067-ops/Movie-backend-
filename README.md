@@ -104,28 +104,4 @@ https://aabhirawat067-ops.github.io/movie-explorer/
 💻 **GitHub Repository:**
 https://github.com/aabhirawat067-ops/movie-explorer
 
----
 
-## 🔐 Security
-
-* API keys are stored using environment variables.
-* `.env` is excluded from version control.
-* Sensitive credentials should never be committed to GitHub.
-* The backend acts as a secure layer between the frontend and TMDB.
-
----
-
-## 👨‍💻 Developer
-
-**Abhishek Rawat**
-
-Full Stack Developer
-
-* GitHub: https://github.com/aabhirawat067-ops
-* LinkedIn: https://www.linkedin.com/in/abhishek-rawat-112b052a1
-
----
-
-## ⭐ Project
-
-If you find this project useful, consider giving the repository a ⭐ on GitHub.
