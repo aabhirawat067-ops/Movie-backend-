@@ -51,4 +51,81 @@ The backend keeps the TMDB API key on the server instead of exposing it directly
 <p>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://im
+  <img src="https://img.shields.io/badge/TMDB-01B4E4?style=for-the-badge&logo=themoviedatabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" />
+</p>
+
+---
+
+## 🏗️ Architecture
+
+```text
+Movie Explorer Frontend
+        │
+        ▼
+Movie Explorer Backend
+(Node.js + Express)
+        │
+        ▼
+      TMDB API
+```
+
+
+---
+
+## 📁 Project Structure
+
+```text
+movie-backend/
+│
+├── node_modules/
+├── .env
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── server.js
+```
+
+
+## 🌐 Deployment
+
+The backend is designed to be deployed on **Render**.
+
+
+## 🔗 Related Project
+
+### 🎬 Movie Explorer Frontend
+
+The frontend application powered by this backend:
+
+🌐 **Live Demo:**
+https://aabhirawat067-ops.github.io/movie-explorer/
+
+💻 **GitHub Repository:**
+https://github.com/aabhirawat067-ops/movie-explorer
+
+---
+
+## 🔐 Security
+
+* API keys are stored using environment variables.
+* `.env` is excluded from version control.
+* Sensitive credentials should never be committed to GitHub.
+* The backend acts as a secure layer between the frontend and TMDB.
+
+---
+
+## 👨‍💻 Developer
+
+**Abhishek Rawat**
+
+Full Stack Developer
+
+* GitHub: https://github.com/aabhirawat067-ops
+* LinkedIn: https://www.linkedin.com/in/abhishek-rawat-112b052a1
+
+---
+
+## ⭐ Project
+
+If you find this project useful, consider giving the repository a ⭐ on GitHub.
